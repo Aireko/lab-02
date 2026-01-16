@@ -10,6 +10,31 @@
     <ListView
         android:id="@+id/city_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" /> <!-- i do web dev i know what self closing elements are -->
+
+<!--    android text should use @string, shouldn't matter for this lab -->
+    <Button
+        android:id="@+id/add_city_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="ADD CITY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/delete_city_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete_city_button"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="DELETE CITY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add_city_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

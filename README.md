@@ -2,12 +2,14 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Phil Jiang`
+- **CCID:** `phil2`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+[lab 2 desc](https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_2_INSTRUCTIONS.pdf)
+lab-description.md
 
 ## Verbal Collaboration
 
