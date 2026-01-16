@@ -16,4 +16,4 @@ lab-description.md
 | Student Name | CCID      |
 | ------------ | --------- |
 | `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+| `alvin goh ` | `acgoh`  |
